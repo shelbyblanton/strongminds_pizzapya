@@ -30,11 +30,13 @@
 
         <div class="d-flex flex-row flex-wrap align-items-center toppings-list text-center mt-5">
             {% for topping in toppings %}
-                <div class="topping" style="text-align: center; margin: auto;">
-                    <img class="mb-2" src="{{ topping.img.url }}" style="max-width: 75px; height: 75px; border-radius: 50px;" alt="{{ topping.name }} photo" />
-                    <h2 class="h4">{{ topping.name }}</h2>
-                    <p>{{ topping.category|title }}</p>
-                </div>
+                <a href="{% url "topping_detail" topping.id %}" style="text-align: center; margin: 0 auto; width: auto;">
+                    <div class="topping" style="text-align: center; margin: auto;">
+                        <img class="mb-2" src="{{ topping.img.url }}" style="max-width: 75px; height: 75px; border-radius: 50px;" alt="{{ topping.name }} photo" />
+                        <h2 class="h4">{{ topping.name }}</h2>
+                        <p>{{ topping.category|title }}</p>
+                    </div>
+                </a>
             {% endfor %}
         </div>
     {% endif %}

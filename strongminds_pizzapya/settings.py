@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import environ
+import os
 
 # Initialise environment variables
 env = environ.Env(
@@ -100,8 +101,8 @@ DATABASES = {
         "NAME": env('DATABASE_NAME'),
         "USER": env('DATABASE_USER'),
         "PASSWORD": env('DATABASE_PASS'),
-        "HOST": "localhost",
-        "PORT": "5432",
+        "HOST": env('DATABASE_HOST'),
+        "PORT": env('DATABASE_PORT'),
     }
 }
 
@@ -154,6 +155,7 @@ AWS_QUERYSTRING_AUTH = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = 'static/'
 
 # Default primary key field type
