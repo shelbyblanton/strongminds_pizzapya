@@ -1,0 +1,1593 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-08-03T17:23:20.220Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Topping object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-08-03T17:25:42.142Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Topping object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-08-03T19:41:57.917Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Red Sauce",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-08-03T19:42:54.526Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Pesto",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-08-03T19:44:34.001Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Olive Oil & Garlic",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-08-03T19:46:31.806Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Alfredo Sauce",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-08-03T19:47:25.733Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "BBQ Sauce",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-08-03T19:49:06.092Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Green peppers",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-08-03T19:49:57.754Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Mushrooms",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-08-03T19:50:46.003Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Red Onions",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-08-03T19:52:16.942Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Black Olives",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-08-03T19:54:55.102Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Banana Peppers",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-08-03T19:55:13.125Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "Jalapeno Peppers",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-08-03T20:01:49.787Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "Mozzarella - Shredded",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-08-03T20:02:08.955Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "15",
+      "object_repr": "Mozzarella - Buffalo",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-08-03T20:02:28.201Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "16",
+      "object_repr": "Parmesan",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-08-03T20:02:46.360Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "17",
+      "object_repr": "Provolone",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-08-03T20:03:04.119Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "18",
+      "object_repr": "Ricotta",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-08-03T20:04:34.895Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Pepperoni Pizza",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-08-03T20:05:52.142Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Deluxe Pizza",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-08-03T20:09:40.752Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Veggie Pizza",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-08-04T17:41:20.680Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "19",
+      "object_repr": "Pepperoni",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-08-04T17:41:34.550Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Pepperoni",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-08-05T18:37:32.158Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Arugula",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-08-05T18:39:52.940Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Arugula",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-08-05T19:11:03.212Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Arugula",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-08-05T19:11:44.340Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "19",
+      "object_repr": "Pepperoni",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-08-05T19:12:02.409Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "18",
+      "object_repr": "Ricotta",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-08-05T19:12:10.431Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "17",
+      "object_repr": "Provolone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-08-05T19:12:21.308Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "16",
+      "object_repr": "Parmesan",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-08-05T19:12:30.430Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "15",
+      "object_repr": "Mozzarella - Buffalo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-08-05T19:12:38.654Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "Mozzarella - Shredded",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-08-05T19:12:46.917Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "Jalapeno Peppers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-08-05T19:12:49.681Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Banana Peppers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-08-05T19:12:57.704Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Banana Peppers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-08-05T19:13:06.303Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Black Olives",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-08-05T19:13:17.298Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Red Onions",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-08-05T19:13:25.509Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Mushrooms",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-08-05T19:13:44.067Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Green peppers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-08-05T19:13:58.339Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "BBQ Sauce",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-08-05T19:14:06.979Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Alfredo Sauce",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-08-05T19:14:16.863Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Olive Oil & Garlic",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-08-05T19:14:26.901Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Pesto",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-08-05T19:14:35.741Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Red Sauce",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-08-05T19:14:45.614Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Crumbled Sausage",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-08-05T19:15:33.499Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Veggie Pizza",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-08-05T19:15:45.564Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Deluxe Pizza",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-08-05T19:15:55.713Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Pepperoni Pizza",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Img\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-08-06T12:35:23.892Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "20",
+      "object_repr": "Arugula",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-08-06T12:35:40.680Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "19",
+      "object_repr": "Pepperoni",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-08-06T12:35:44.843Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "18",
+      "object_repr": "Ricotta",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-08-06T12:35:47.722Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "17",
+      "object_repr": "Provolone",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-08-06T12:35:50.423Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "16",
+      "object_repr": "Parmesan",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-08-06T12:35:56.908Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "Jalapeno Peppers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-08-06T12:36:07.632Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Banana Peppers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2023-08-06T12:36:15.455Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Black Olives",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2023-08-06T12:36:20.918Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Red Onions",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2023-08-06T12:36:25.470Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Mushrooms",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2023-08-06T12:36:31.926Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Green peppers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2023-08-06T12:36:37.351Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "BBQ Sauce",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2023-08-06T12:36:42.472Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Alfredo Sauce",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2023-08-06T12:36:47.607Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Olive Oil & Garlic",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2023-08-06T12:36:52.649Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Pesto",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2023-08-06T12:36:57.311Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Red Sauce",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2023-08-06T12:37:03.184Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Crumbled Sausage",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2023-08-06T22:13:19.331Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "strongminds",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2023-08-06T22:15:53.566Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "strongminds",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2023-08-06T23:09:21.466Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Pepperoni Pizza",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Toppings\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2023-08-06T23:13:25.039Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Deluxe Pizza",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Toppings\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add topping",
+      "content_type": 7,
+      "codename": "add_topping"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change topping",
+      "content_type": 7,
+      "codename": "change_topping"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete topping",
+      "content_type": 7,
+      "codename": "delete_topping"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view topping",
+      "content_type": 7,
+      "codename": "view_topping"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add pizza",
+      "content_type": 8,
+      "codename": "add_pizza"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change pizza",
+      "content_type": 8,
+      "codename": "change_pizza"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete pizza",
+      "content_type": 8,
+      "codename": "delete_pizza"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view pizza",
+      "content_type": 8,
+      "codename": "view_pizza"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add image",
+      "content_type": 9,
+      "codename": "add_image"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change image",
+      "content_type": 9,
+      "codename": "change_image"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete image",
+      "content_type": 9,
+      "codename": "delete_image"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view image",
+      "content_type": 9,
+      "codename": "view_image"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$JRy9kdhxhkMbKxnE7zwwUj$maqMJV8vSyRWqNa7hqjMQKWPYfXf0uL0B8dg5aFtNzc=",
+      "last_login": "2023-08-06T22:16:51.503Z",
+      "is_superuser": true,
+      "username": "shelby",
+      "first_name": "",
+      "last_name": "",
+      "email": "shelbyblanton@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-08-03T17:01:10.967Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$66WcRd3Y2oqJxdBP8iO1g5$9vP6wrAcPxYrHwHScebY27414kwLX2Y0ufMXOh3HgOo=",
+      "last_login": "2023-08-06T22:16:23.788Z",
+      "is_superuser": false,
+      "username": "strongminds",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-08-06T22:13:19Z",
+      "groups": [],
+      "user_permissions": [
+        29,
+        30,
+        31,
+        32,
+        25,
+        26,
+        27,
+        28
+      ]
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "pizzapya",
+      "model": "topping"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "pizzapya",
+      "model": "pizza"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "pizzapya",
+      "model": "image"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "lmlgk1z2s0igx1lmi3x058ylo9q02owj",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSFQhpdL934DAWaQqoGktCvjv2uTLnR7zzn3xULc1hq2QUuYkZ2ZZKffLcX8oLYDvMd26zz3ti5z4rvCDzr4tSM9L4f7d1DjqN_aeI1gtS1IBOCcmshC8ga9RCoYdRaFtMlOAiUn7QRKmKK8sSppYQR7fwDidzdj:1qSm3P:-OeOUUBlUz03cyuCjyNCSRNB0VZk5MtbgCHRxTgLBsU",
+      "expire_date": "2023-08-20T22:16:51.504Z"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 2,
+    "fields": {
+      "name": "Crumbled Sausage",
+      "category": "meats",
+      "img": "img/crumbled_sausage.jpg",
+      "price": "0.75"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 3,
+    "fields": {
+      "name": "Red Sauce",
+      "category": "sauces",
+      "img": "img/red-sauce.jpeg",
+      "price": "0.35"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 4,
+    "fields": {
+      "name": "Pesto",
+      "category": "sauces",
+      "img": "img/pesto.jpeg",
+      "price": "0.65"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 5,
+    "fields": {
+      "name": "Olive Oil & Garlic",
+      "category": "sauces",
+      "img": "img/olive-oil-garlic.jpeg",
+      "price": "0.45"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 6,
+    "fields": {
+      "name": "Alfredo Sauce",
+      "category": "sauces",
+      "img": "img/alfredo.jpeg",
+      "price": "0.59"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 7,
+    "fields": {
+      "name": "BBQ Sauce",
+      "category": "sauces",
+      "img": "img/bbq-sauce.jpeg",
+      "price": "0.49"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 8,
+    "fields": {
+      "name": "Green peppers",
+      "category": "veggies",
+      "img": "img/bell-peppers.jpeg",
+      "price": "0.59"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 9,
+    "fields": {
+      "name": "Mushrooms",
+      "category": "veggies",
+      "img": "img/mushrooms.jpeg",
+      "price": "0.29"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 10,
+    "fields": {
+      "name": "Red Onions",
+      "category": "veggies",
+      "img": "img/red-onion.jpeg",
+      "price": "0.39"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 11,
+    "fields": {
+      "name": "Black Olives",
+      "category": "veggies",
+      "img": "img/black-olives.jpg",
+      "price": "0.59"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 12,
+    "fields": {
+      "name": "Banana Peppers",
+      "category": "veggies",
+      "img": "img/banana-pepper.jpeg",
+      "price": "0.69"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 13,
+    "fields": {
+      "name": "Jalapeno Peppers",
+      "category": "veggies",
+      "img": "img/jalapenos.jpg",
+      "price": "0.49"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 14,
+    "fields": {
+      "name": "Mozzarella - Shredded",
+      "category": "cheeses",
+      "img": "img/mozarella-shredded.jpg",
+      "price": "0.49"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 15,
+    "fields": {
+      "name": "Mozzarella - Buffalo",
+      "category": "cheeses",
+      "img": "img/mozzarella-buffalo.jpg",
+      "price": "0.89"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 16,
+    "fields": {
+      "name": "Parmesan",
+      "category": "cheeses",
+      "img": "img/parmesan.jpg",
+      "price": "0.59"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 17,
+    "fields": {
+      "name": "Provolone",
+      "category": "cheeses",
+      "img": "img/provolone.jpg",
+      "price": "0.59"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 18,
+    "fields": {
+      "name": "Ricotta",
+      "category": "cheeses",
+      "img": "img/ricotta.jpeg",
+      "price": "0.39"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 19,
+    "fields": {
+      "name": "Pepperoni",
+      "category": "meats",
+      "img": "img/pepperoni.jpg",
+      "price": "0.55"
+    }
+  },
+  {
+    "model": "pizzapya.topping",
+    "pk": 20,
+    "fields": {
+      "name": "Arugula",
+      "category": "veggies",
+      "img": "img/arugula.jpg",
+      "price": "0.39"
+    }
+  },
+  {
+    "model": "pizzapya.pizza",
+    "pk": 1,
+    "fields": {
+      "name": "Pepperoni Pizza",
+      "price": "20.99",
+      "img": "img/pepperoni-pizza.png",
+      "on_sale": true,
+      "toppings": [
+        3,
+        14,
+        19
+      ]
+    }
+  },
+  {
+    "model": "pizzapya.pizza",
+    "pk": 2,
+    "fields": {
+      "name": "Deluxe Pizza",
+      "price": "26.99",
+      "img": "img/deluxe-pizza.png",
+      "on_sale": false,
+      "toppings": [
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        14,
+        19
+      ]
+    }
+  },
+  {
+    "model": "pizzapya.pizza",
+    "pk": 3,
+    "fields": {
+      "name": "Veggie Pizza",
+      "price": "32.99",
+      "img": "img/veggie-pizza.jpeg",
+      "on_sale": true,
+      "toppings": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        16
+      ]
+    }
+  }
+]

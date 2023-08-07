@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <hr class="mt-5">
+
+    {% if topping %}
+        <a href="{% url "home" %}"><<< Back to Toppings</a>
+        <h3 class="header-title text-center">{{ topping.name }}</h3>
+        <p class="text-center mb-5">Category: {{ topping.category|title }}</p>
+
+        <div class="pizza-img-detail text-center mx-auto" style="background-image: url({{ topping.img.url }});"></div>
+
+        <div class="container text-center">
+            <h2 class="h3">${{ topping.price }}</h2>
+        </div>
+
+    {% endif %}
+
+{#    {% if toppings %}#}
+{#        <style>#}
+{#            .topping {#}
+{#                width: 300px;#}
+{#                padding: 10px;#}
+{#            }#}
+{#        </style>#}
+{##}
+{#        <div class="d-flex flex-row flex-wrap align-items-center toppings-list text-center mt-5">#}
+{#            {% for topping in toppings %}#}
+{#                <div class="topping" style="text-align: center; margin: auto;">#}
+{#                    <img class="mb-2" src="{{ topping.img.url }}" style="max-width: 75px; height: 75px; border-radius: 50px;" alt="{{ topping.name }} photo" />#}
+{#                    <h2 class="h4">{{ topping.name }}</h2>#}
+{#                    <p>{{ topping.category }}</p>#}
+{#                </div>#}
+{#            {% endfor %}#}
+{#        </div>#}
+{#    {% endif %}#}
+
+    <hr class="mt-5">
+
+{% endblock %}

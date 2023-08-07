@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <hr class="mt-5">
+
+    {% if pizzas %}
+        <h3 class="header-title text-center">SPECIALITY PIZZAS</h3>
+        <div class="container text-center mt-5">
+            <div class="row">
+                {% for pizza in pizzas %}
+                    <a href="{% url "pizza_detail" pizza.id %}" style="text-align: center; margin: 0 auto; width: auto;">
+                        <div class="topping col">
+                            <div class="pizza-img-contain text-center mx-auto" style="background-image: url({{ pizza.img.url }});">
+                                {% if pizza.on_sale %}
+                                    <div class="on-sale">ON SALE!</div>
+                                {% endif %}
+                            </div>
+
+                            <h2 class="h3">{{ pizza.name }}</h2>
+                            <h3 class="h4">${{ pizza.price }}</h3>
+                            <p style="font-size: 11px;">
+                                <b>Toppings:</b><br>
+                                {{ pizza.toppings }}</p>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+
+    <hr class="mt-5">
+        {% if toppings %}
+            <h3 class="header-title text-center">AVAILABLE TOPPINGS</h3>
+
+            <style>
+                .topping {
+                    width: 300px;
+                    padding: 10px;
+                }
+            </style>
+
+            <div class="d-flex flex-row flex-wrap align-items-center toppings-list text-center mt-5">
+                {% for topping in toppings %}
+                    <a href="{% url "topping_detail" topping.id %}" style="text-align: center; margin: 0 auto; width: auto;">
+                        <div class="topping">
+                            <img class="mb-2" src="{{ topping.img.url }}" style="max-width: 75px; height: 75px; border-radius: 50px;" alt="{{ topping.name }} photo" />
+                            <h2 class="h4">{{ topping.name }}</h2>
+                            <h3 class="h5">${{ topping.price }}</h3>
+                            <p>{{ topping.category|title }}</p>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+    <hr class="mt-5">
+
+{% endblock %}

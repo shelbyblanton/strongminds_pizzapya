@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PizzaPya - Pizza Served with Python & Django!</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="https://pizzapya.s3.us-west-1.amazonaws.com/img/favicon.png"/>
+        <style>
+            html {background-color: #f6f1f1;}
+            body {
+                max-width: 1300px;
+                margin: 50px auto;
+                padding: 50px;
+            }
+            .header-title {color: #c6372f;}
+            a {
+                text-decoration: none;
+                color: #f7941d;
+            }
+            .pizza-img-contain {
+                width: 75px;
+                height: 75px;
+                background-size: contain;
+                position: relative;
+            }
+            .pizza-img-detail {
+                width: 300px;
+                height: 300px;
+                background-size: contain;
+                position: relative;
+                background-repeat: no-repeat;
+            }
+            .on-sale {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 20x;
+                background-color: maroon;
+                color: #eee;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="text-center">
+            <img class="mx-auto mt-3" src="https://pizzapya.s3.us-west-1.amazonaws.com/img/pizzapya-2.png" alt="PizzaPya - A Pizza Ordering System Created in Python" style="max-width: 400px;" />
+        </header>
+
+        <h1 class="fs-2 fw-lighter fst-italic text-center mt-3">Pizza Served with Python & Django!</h1>
+
+
+        {% block content %}
+
+        {% endblock %}
+    </body>
+    <footer>
+        <p style="font-size: 10px;">&copy; {% now "Y" %} All Rights Reserved | <a href="{% url 'admin:index' %}">ADMIN LOGIN</a></p>
+    </footer>
+</html>

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <hr class="mt-5">
+
+    {% if pizza %}
+        <a href="{% url "home" %}"><<< Back to Pizzas</a>
+        <h3 class="header-title text-center">{{ pizza.name }}</h3>
+
+        <div class="pizza-img-detail text-center mx-auto" style="background-image: url({{ pizza.img.url }});">
+            {% if pizza.on_sale %}
+                <div class="on-sale">ON SALE!</div>
+            {% endif %}
+        </div>
+
+        <div class="container text-center mt-5">
+            <h2 class="h3">${{ pizza.price }}</h2>
+        </div>
+
+    {% endif %}
+
+    {% if toppings %}
+        <style>
+            .topping {
+                width: 300px;
+                padding: 10px;
+            }
+        </style>
+
+        <div class="d-flex flex-row flex-wrap align-items-center toppings-list text-center mt-5">
+            {% for topping in toppings %}
+                <div class="topping" style="text-align: center; margin: auto;">
+                    <img class="mb-2" src="{{ topping.img.url }}" style="max-width: 75px; height: 75px; border-radius: 50px;" alt="{{ topping.name }} photo" />
+                    <h2 class="h4">{{ topping.name }}</h2>
+                    <p>{{ topping.category|title }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <hr class="mt-5">
+
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'admin/base.html' %}
+
+{% block extrastyle %}{{ block.super }}
+<style>
+:root {
+    --primary: #f6f1f1;
+    --secondary: #c6372f;
+    --link-fg: #c6372f;
+    --link-selected-fg: #8f5bb2;
+    --header-color: #6a1e19;
+    --header-link-color: #f7941d;
+    --breadcrumbs-link-fg: #6a1e19;
+    --breadcrumbs-fg: #d78e00;
+    --selected-row: #f8ebdc;
+    --button-bg: #c6372f;
+    --default-button-hover-bg: #70bf2b;
+    --button-hover-bg: #70bf2b;
+}
+</style>
+{% endblock %}
+
+{% block extrahead %}
+    <link rel="shortcut icon" type="image/png" href="https://pizzapya.s3.us-west-1.amazonaws.com/img/favicon.png"/>
+{% endblock %}
